@@ -73,6 +73,7 @@ Highlights:
 ###### Outside core scope
 
 #### [#11635](https://github.com/JabRef/jabref/pull/11635) - Persist selection of databases in SLR
+#### [#11665](https://github.com/JabRef/jabref/pull/11665) - Upgrade Endnote XML exporter to StAX
 #### [#11614](https://github.com/JabRef/jabref/pull/11614) - Fix authorsAlpha
 #### [#11456](https://github.com/JabRef/jabref/pull/11456) - Add FAQ to devdocs (Code Howtos)
 #### [#11486](https://github.com/JabRef/jabref/pull/11486) - FAQ updates
