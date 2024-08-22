@@ -75,6 +75,7 @@ Highlights:
 #### [#11635](https://github.com/JabRef/jabref/pull/11635) - Persist selection of databases in SLR
 #### [#11665](https://github.com/JabRef/jabref/pull/11665) - Upgrade EndNote XML exporter to StAX
 #### [#11614](https://github.com/JabRef/jabref/pull/11614) - Fix authorsAlpha
+#### [#11667](https://github.com/JabRef/jabref/pull/11667) - Selected SLR catalogs: maintain preferences abstraction level
 #### [#11456](https://github.com/JabRef/jabref/pull/11456) - Add FAQ to devdocs (Code Howtos)
 #### [#11486](https://github.com/JabRef/jabref/pull/11486) - FAQ updates
 #### [#11603](https://github.com/JabRef/jabref/pull/11603) - Integrate DOI special character parsing test in existing parameterized test
@@ -99,8 +100,8 @@ Highlights:
 
 |        Changes        | **During GSoC** |      **All**        |
 |-----------------------|-----------------|---------------------|
-| **(+) Lines added**   |      3615       |        6187         |
-| **(-) Lines removed** |      1198       |        1628         |  
+| **(+) Lines added**   |      3635       |        6207         |
+| **(-) Lines removed** |      1218       |        1648         |  
   
 Here is a complete [list of my commits](https://github.com/JabRef/jabref/commits?author=subhramit) to JabRef (main).
 
