@@ -100,8 +100,8 @@ Highlights:
 
 |        Changes        | **During GSoC** |      **All**        |
 |-----------------------|-----------------|---------------------|
-| **(+) Lines added**   |      3635       |        6207         |
-| **(-) Lines removed** |      1218       |        1648         |  
+| **(+) Lines added**   |      3646       |        6218         |
+| **(-) Lines removed** |      1217       |        1647         |  
   
 Here is a complete [list of my commits](https://github.com/JabRef/jabref/commits?author=subhramit) to JabRef (main).
 
