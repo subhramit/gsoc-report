@@ -62,7 +62,7 @@ Highlights:
 Highlights:
 
 - Refactored existing code from PR A, B and C
-- Added documentation for the added utility classes and methods
+- Added documentation for the added classes and methods
 - Added comprehensive unit tests for the added utility methods
 
 #### [#11535](https://github.com/JabRef/jabref/pull/11535) - Make CSL Citation Adapter non-static
