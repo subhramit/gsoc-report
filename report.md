@@ -97,7 +97,7 @@ Highlights:
 
 ## Statistics
 
-|        Changes        | **During GSoC** | **All (till GSoC)** |
+|        Changes        | **During GSoC** |      **All**        |
 |-----------------------|-----------------|---------------------|
 | **(+) Lines added**   |      3615       |        6187         |
 | **(-) Lines removed** |      1198       |        1628         |  
