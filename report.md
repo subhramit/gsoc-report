@@ -3,7 +3,7 @@
 | __Organization__       | [JabRef]                                                                                                       |
 | __Primary repository__ | [JabRef/jabref]                                                                                                |
 | __Project name__       | Improved CSL Support (and more LibreOffice-JabRef integration enhancements)                                    |
-| __Project mentors__    | [koppor](https://github.com/koppor), [Christoph](https://github.com/Siedlerchr), [ThiloteE](https://github.com/ThiloteE) and [calixtus](https://github.com/calixtus)                                                                                                   |
+| __Project mentors__    | [Christoph](https://github.com/Siedlerchr), [@ThiloteE](https://github.com/ThiloteE), [@calixtus](https://github.com/calixtus), [@koppor](https://github.com/koppor),                                                                                                    |
 | __Project page__       | [Google Summer of Code 2024 Project Page](https://summerofcode.withgoogle.com/programs/2024/projects/MfPL66UW) |
 | __Status__             | Complete                                                                                                       |
 
