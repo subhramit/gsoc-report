@@ -9,7 +9,7 @@
 
 ## Project summary
 
-**[Citation Style Language](https://citationstyles.org/) (CSL)** is a popular open-source XML-based language that describes schema for formatting of citations and bibliographies.  
+**[Citation Style Language](https://citationstyles.org/) (CSL)** is a popular open-source XML-based language that describes schema for formatting of citations and bibliographies.
 It supports thousands of citation styles popular in academia, such as _American Psychological Association_ (APA), _American Medical Association_ (AMA), _Institute of Electrical and Electronics Engineers_ (IEEE), _Modern Language Association_ (MLA), _Chicago Manual of Style_ (CMS), _Springer - Lecture Notes in Computer Science_, _American Institute of Physics_, _Harvard_, _Vancouver_, _Nature_ and so on.  
   
 JabRef's integration with LibreOffice lacked support for citing references using the Citation Style Language, which was a highly requested feature among its user base [(#119)](https://github.com/JabRef/jabref/issues/119), [(#2146)](https://github.com/JabRef/jabref/issues/2146). 
@@ -17,11 +17,11 @@ JabRef's integration with LibreOffice lacked support for citing references using
 Refined project issue - [(#8893)](https://github.com/JabRef/jabref/issues/8893).
 
 This project implements this feature and also enhances the existing Jabref-OO/LO integration in four broad sub-parts: 
+
 1. Implementing a user-friendly CSL style selection functionality for citations, in-text citations and reference lists
 2. Ensuring seamless adaptation of the selected CSL style to a connected LibreOffice document instance
 3. Improving the existing architecture of JabRef's LibreOffice/OpenOffice integration code
 4. Writing unit tests for the aforementioned features
-
 
 ### Pull Requests to *main* branch:
 
@@ -108,7 +108,5 @@ Here is a complete [list of my commits](https://github.com/JabRef/jabref/commits
 ## Blog posts
 (Upcoming)
 
-[JabRef]: http://www.jabref.org
-[JabRef/jabref]: http://github.com/JabRef/jabref
-
-[Project blogpost]: 
+[JabRef]: https://www.jabref.org
+[JabRef/jabref]: https://github.com/JabRef/jabref
