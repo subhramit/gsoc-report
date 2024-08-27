@@ -3,7 +3,7 @@
 | __Organization__       | [JabRef]                                                                                                       |
 | __Primary repository__ | [JabRef/jabref]                                                                                                |
 | __Project name__       | Improved CSL Support (and more LibreOffice-JabRef integration enhancements)                                    |
-| __Project mentors__    | [Christoph](https://github.com/Siedlerchr), [@ThiloteE](https://github.com/ThiloteE), [@calixtus](https://github.com/calixtus), [@koppor](https://github.com/koppor),                                                                                                    |
+| __Project mentors__    | [@Siedlerchr](https://github.com/Siedlerchr), [@ThiloteE](https://github.com/ThiloteE), [@calixtus](https://github.com/calixtus), [@koppor](https://github.com/koppor)                                                                                                   |
 | __Project page__       | [Google Summer of Code 2024 Project Page](https://summerofcode.withgoogle.com/programs/2024/projects/MfPL66UW) |
 | __Status__             | Complete                                                                                                       |
 
@@ -14,7 +14,7 @@ It supports thousands of citation styles popular in academia, such as _American 
   
 JabRef's integration with LibreOffice lacked support for citing references using the Citation Style Language, which was a highly requested feature among its user base [(#119)](https://github.com/JabRef/jabref/issues/119), [(#2146)](https://github.com/JabRef/jabref/issues/2146). 
 
-Refined project issue - [(#8893)](https://github.com/JabRef/jabref/issues/8893).
+Refined project issue - [(#8893)](https://github.com/JabRef/jabref/issues/8893).  
 
 This project implements this feature and also enhances the existing Jabref-OO/LO integration in four broad sub-parts: 
 
@@ -22,6 +22,7 @@ This project implements this feature and also enhances the existing Jabref-OO/LO
 2. Ensuring seamless adaptation of the selected CSL style to a connected LibreOffice document instance
 3. Improving the existing architecture of JabRef's LibreOffice/OpenOffice integration code
 4. Writing unit tests for the aforementioned features
+
 
 ### Pull Requests to *main* branch:
 
@@ -55,7 +56,7 @@ Highlights:
 - Added support for underlined CSL styles
 - Added support for alphanumeric CSL styles
 - Implemented "smart spaces" feature for CSL citation insertion
-- Miscellaneous refinement and additions (e.g. new icon for "add bibliography", fixed extra newlines in case of numeric styles, disabled irrelevant buttons when CSL style is selected, upgraded to StAX parsing for information from .csl files etc.)
+- Miscellaneous refinement and additions (e.g. new icon for "add bibliography", fixed extra newlines in case of numeric styles, added auto-select last selected style tab feature, disabled irrelevant buttons when CSL style is selected, etc.)
 
 #### [#11636](https://github.com/JabRef/jabref/pull/11636) - CSL4LibreOffice - D [GSoC '24]
 
@@ -73,7 +74,6 @@ Highlights:
 ###### Outside core scope
 
 #### [#11635](https://github.com/JabRef/jabref/pull/11635) - Persist selection of databases in SLR
-#### [#11665](https://github.com/JabRef/jabref/pull/11665) - Upgrade EndNote XML exporter to StAX
 #### [#11614](https://github.com/JabRef/jabref/pull/11614) - Fix authorsAlpha
 #### [#11667](https://github.com/JabRef/jabref/pull/11667) - Selected SLR catalogs: maintain preferences abstraction level
 #### [#11456](https://github.com/JabRef/jabref/pull/11456) - Add FAQ to devdocs (Code Howtos)
@@ -95,18 +95,50 @@ Highlights:
 #### [#11111](https://github.com/JabRef/jabref/pull/11111) - Remove warnings when importing search entries in unsaved libraries
 #### [#11152](https://github.com/JabRef/jabref/pull/11152) - Fix LICENSE link
 
+### Screenshots
 
-## Statistics
+#### The "Select style" Dialog:
+
+
+| **Light<br> Theme** | ![image](https://github.com/user-attachments/assets/08ecfc5c-0870-46d6-8acb-5e4c4d845ff7) |
+| :-----------------: | :--------------------------------------------------------------------------------------:  |
+| **Dark<br> Theme**  | ![image](https://github.com/user-attachments/assets/886a8a16-da96-44ba-b473-4d06a9b27b67) |
+
+## Demo
+
+#### **Selecting a style:**
+![selecting-a-style](https://github.com/user-attachments/assets/fc8ba829-3c26-4e96-9be2-0da1837eab35)  
+  
+#### **Inserting citations:**
+![cite](https://github.com/user-attachments/assets/00cb37a0-d7d4-42cc-aa7c-1c4df893bb1d)  
+  
+#### **Generating bibliography:**
+![bibliography](https://github.com/user-attachments/assets/1859d77a-8ca2-43fb-b7ac-80ef19a2fc48)  
+  
+#### **Updating bibliography:**
+![refresh](https://github.com/user-attachments/assets/1c921f30-e5f7-4d6f-a659-f76bf6fe40ff)   
+
+## Challenges and important learnings
+
+Although it is difficult to pick out a few highlights from all the learning that I had during the project, as during the entirety of it was an invaluable learning experience - whether it be during the coding activities or during the weekly interactions with my mentors, following are a few things that I enjoyed learning a lot:
+1. LibreOffice programming in Java (particularly challenging: embedding "reference marks" into the text and then parsing them back)
+2. The MVVM architectural design pattern
+3. Storing user preferences in OS registry
+4. Parsing XML files and its two popular approaches - using DOM and using StAX
+5. Writing parameterized tests using JUnit 5
+6. Communicating and working with a team spread across different timezones
+
+## Code statistics
 
 |        Changes        | **During GSoC** |      **All**        |
 |-----------------------|-----------------|---------------------|
-| **(+) Lines added**   |      3646       |        6218         |
-| **(-) Lines removed** |      1217       |        1647         |  
+| **(+) Lines added**   |      3409       |        5981         |
+| **(-) Lines removed** |      1044       |        1474         |  
   
 Here is a complete [list of my commits](https://github.com/JabRef/jabref/commits?author=subhramit) to JabRef (main).
 
-## Blog posts
-(Upcoming)
+## Blog post
+You can check out the blog post [here](https://blog.jabref.org/2024/08/26/GSoC-CSL).
 
 [JabRef]: https://www.jabref.org
 [JabRef/jabref]: https://github.com/JabRef/jabref
