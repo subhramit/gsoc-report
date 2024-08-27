@@ -118,7 +118,7 @@ Highlights:
 #### **Updating bibliography:**
 ![refresh](https://github.com/user-attachments/assets/1c921f30-e5f7-4d6f-a659-f76bf6fe40ff)   
 
-## Challenges and important learnings
+## Challenges and learning highlights
 
 Although it is difficult to pick out a few highlights from all the learning that I had during the project, as during the entirety of it was an invaluable learning experience - whether it be during the coding activities or during the weekly interactions with my mentors, following are a few things that I enjoyed learning a lot:
 1. LibreOffice programming in Java (particularly challenging: embedding "reference marks" into the text and then parsing them back)
