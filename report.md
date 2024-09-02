@@ -116,7 +116,7 @@ Highlights:
 ![bibliography](https://github.com/user-attachments/assets/1859d77a-8ca2-43fb-b7ac-80ef19a2fc48)  
   
 #### **Updating bibliography:**
-![refresh](https://github.com/user-attachments/assets/1c921f30-e5f7-4d6f-a659-f76bf6fe40ff)   
+![refresh](https://github.com/user-attachments/assets/144d37fe-4f99-4282-af54-34984440855c)  <br><br>
 
 ## Challenges and learning highlights
 
